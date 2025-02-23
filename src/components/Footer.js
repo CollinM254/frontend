@@ -60,6 +60,8 @@ const Footer = () => {
             Our shop is located Off Luthuli Avenue along Gaberone Road right
             opposite Nairobi Textile
           </p>
+          <p><Link to={'/returnpolicy'} style={{color: 'blue'}}>Return and Refund Policy</Link></p>
+          <p><Link to={'/termsandconditions'} style={{color: 'blue'}}>Terms and Conditions</Link></p>
         </div>
 
         {/* Exact Location Section */}
@@ -82,7 +84,7 @@ const Footer = () => {
         <p className="text-center font-bold" title="Youtube Channel">
           &copy;{new Date().getFullYear()} Developed by{" "}
           <Link to={"https://collinm254.github.io/Portfolio1/"}>Collin</Link>{" "}
-          and <Link to={""}>David</Link>
+          and <Link to={""}>David</Link> || <Link to={"https://fusion-xe.vercel.app/"}>Fusion-Xe</Link>
         </p>
       </div>
     </footer>

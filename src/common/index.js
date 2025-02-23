@@ -1,4 +1,6 @@
 const backendDomin = "https://trendy-195868e445ff.herokuapp.com"
+// const backendDomin = "http://localhost:8080"
+
 
 const SummaryApi = {
     signUP : {

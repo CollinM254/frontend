@@ -11,7 +11,8 @@ import CategoryProduct from '../pages/CategoryProduct'
 import ProductDetails from '../pages/ProductDetails'
 import Cart from '../pages/Cart'
 import SearchProduct from '../pages/SearchProduct'
-
+import RefundReturnPolicy from '../components/RefundReturnPolicy'
+import TermsAndConditions from '../components/TermsAndConditions'
 const router = createBrowserRouter([
     {
         path : "/",
@@ -20,6 +21,14 @@ const router = createBrowserRouter([
             {
                 path : "",
                 element : <Home/>
+            },
+            {
+                path : "/returnpolicy",
+                element : <RefundReturnPolicy />
+            },
+            {
+                path : "/termsandconditions",
+                element : <TermsAndConditions />
             },
             {
                 path : "login",
