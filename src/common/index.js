@@ -1,4 +1,4 @@
-const backendDomin = "https://trendy-195868e445ff.herokuapp.com"
+const backendDomin = "https://trendybackend.vercel.app"
 // const backendDomin = "http://localhost:8080"
 
 
